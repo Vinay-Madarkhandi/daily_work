@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Libre+Baskerville&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Sono', sans-serif;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+}
+video {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    position: fixed;
+    left: 0;
+    top: 0;
+    object-fit: cover;
+  }
+.pricing-container{
+    height: 100vh;
+    width: 90%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.pricing-plan{
+    height: 35vh;
+    width: 400px;
+    padding: 20px;
+    border: solid white 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+.plan-title{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+.plan-price{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: white;
+}
+.plan-features{
+    color: white;
+    list-style: none;
+}
+button{
+    background-color: #ff6600;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+@media (max-width: 1250px) { 
+    .pricing-container{
+        flex-direction: column;
+    }
+}

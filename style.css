@@ -9,12 +9,10 @@ body {
 .main {
   flex: 1;
 }
-
 h1 {
   font-size: 5rem;
   color: whitesmoke;
 }
-
 h1 > span{
   color: midnightblue;
 }
@@ -38,7 +36,6 @@ video {
   top: 0;
   object-fit: cover;
 }
-
 .main{
   display: inline-block;
   
@@ -67,6 +64,14 @@ p{
 }
 h2{
   color: beige;
+}
+a{
+  color:  hotpink;
+  margin-left: 5px;
+  font-size: 24px;
+}
+a:hover {
+  color:white;
 }
 @media (max-width: 680px) {
   .logo {
