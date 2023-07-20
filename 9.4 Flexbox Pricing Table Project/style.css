@@ -31,7 +31,7 @@ video {
 }
 .pricing-plan{
     height: 37vh;
-    width: 400px;
+    min-width: 400px;
     padding: 20px;
     border: solid white 5px;
     border-radius: 10px;
