@@ -1,0 +1,61 @@
+*{
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 0;
+}
+label{
+    font-size: 80px;
+}
+.class1{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttons{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px
+    ;
+}
+button{
+    color: black;
+    background-color: lightblue;
+    border-radius: 5px;
+    height: 50px;
+    width: 80px;
+    font-size: large;
+}
+.askName{
+    border: solid black 10px;
+    height: 400px;
+    width: 350px;
+    display: block;
+    margin-left: 680px;
+    margin-top: 10vh;
+    border-radius: 20px;
+    padding: 5px;
+}
+#msgPara{
+    font-size: 22px;
+    margin-top: 5px;
+}
+div > h1{
+    font-size: 38px;
+}
+div > input{
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+.Welcome{
+    text-align: center;
+}
+@media (max-width: 600px) {
+    .askName{
+        margin-left: 10px;
+    }
+
+}
