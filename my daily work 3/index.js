@@ -1,4 +1,4 @@
-var count = 0 ;
+let count = 0 ;
 document.getElementById("incrase").onclick = function(){
     count += 1 ;
     document.getElementById("countNumber").innerHTML = count
@@ -11,7 +11,7 @@ document.getElementById("decrease").onclick = function(){
     count -= 1 ;
     document.getElementById("countNumber").innerHTML = count;
 }
-var names ;
+let names ;
 document.getElementById("Submit").onclick = function (){
     
     names = document.getElementById("inputName").value ;
